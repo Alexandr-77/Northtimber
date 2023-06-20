@@ -185,16 +185,11 @@ a {
   right: 15px;
 }
 /* ====== Медиа 768px ====== */
-@media (max-width: 768px) {
-  .slider {
-    top: 58px;
-  }
-}
+/* @media (max-width: 768px) {
+
+} */
 /* ====== Медиа 550px ====== */
 @media (max-width: 550px) {
-  .slider {
-    top: 54px;
-  }  
   .slider__box-item {
     height: 650px;
   }
@@ -425,9 +420,9 @@ a {
 /* ========= Медиа ========= */
 /* ====== Медиа 990px ====== */
 @media (max-width: 990px) {
-  .header {
+  /* .header {
     background: url(../img/header/header-bg.jpg) 50% 75px / cover no-repeat;
-  }
+  } */
   .header__block-logo {
     margin-right: 0;
   }
