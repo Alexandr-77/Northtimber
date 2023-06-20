@@ -140,10 +140,7 @@ a {
 /* ========= header ======== */
 .header {
   position: relative;
-  padding-bottom: 100px;
-}
-.header__pilmat {
-  padding-bottom: 165px;
+  min-height: 685px;
 }
 .header::before {
   content: '';
