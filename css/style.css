@@ -854,7 +854,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  margin: 20px 0 100px;
+  margin: 20px 0 60px;
 }
 .lumber__box-item {
   width: 24%;
@@ -889,6 +889,9 @@ a {
 }
 /* ====== Медиа 550px ====== */
 @media (max-width: 550px) {
+  .lumber__box-wrap {
+    margin-top: 25px;
+  }
   .lumber__box {
     gap: 8px;
   }
@@ -896,10 +899,25 @@ a {
     width: 48%;
   }
 }
+/* ====== Медиа 450px ====== */
+@media (max-width: 450px) {
+  .lumber__title {
+    font-size: 30px;
+  }
+  .lumber__subtitle {
+    font-size: 22px;
+  }
+}
 /* ====== Медиа 400px ====== */
 @media (max-width: 400px) {
   .lumber__box-image {
     height: 150px;
+  }
+  .lumber__subtitle {
+    font-size: 21px;
+  }
+  .lumber__box {
+    margin: 5px 0 35px;
   }
 }
 /* ======== lumber /======== */
