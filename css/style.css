@@ -286,15 +286,9 @@ a {
   color: var(--st);
 }
 .header__menu-active {
-  /* box-shadow: 0px 2px #dcedff; */
   color: var(--bb-hove);
 }
-/* .header__menu-active::before {
-  background: var(--sm);
-  width: 100%;
-} */
 .header__menu-link:hover {
-  /* box-shadow: 0px 2px #dcedff; */
   color: var(--bb-hove);
 }
 .header__grup {
@@ -393,6 +387,9 @@ a {
 .header__box {
   padding: 100px 0 0px;
   max-width: 750px;
+}
+.header__mibox {
+  padding: 180px 0 0px;
 }
 .header__main h3 {
   font-weight: 500;
