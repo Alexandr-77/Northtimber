@@ -874,6 +874,34 @@ a {
   bottom: 0;
   left: 0;
 }
+/* ====== Медиа 990px ====== */
+@media (max-width: 990px) {
+  .lumber__box {
+    gap: 8px;
+    margin: 12px 0 50px;
+  }
+  .lumber__box-item {
+    width: 23%;
+  }
+  .lumber__box-image {
+    height: 200px;
+  }
+}
+/* ====== Медиа 550px ====== */
+@media (max-width: 550px) {
+  .lumber__box {
+    gap: 8px;
+  }
+  .lumber__box-item {
+    width: 48%;
+  }
+}
+/* ====== Медиа 400px ====== */
+@media (max-width: 400px) {
+  .lumber__box-image {
+    height: 150px;
+  }
+}
 /* ======== lumber /======== */
 
 
