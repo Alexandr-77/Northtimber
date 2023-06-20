@@ -456,6 +456,10 @@ a {
 /* ====== Медиа 990px / ====== */
 /* ====== Медиа 768px ====== */
 @media (max-width: 768px) {
+
+  .header {
+    min-height: 675px;
+  }
   .header__top {
     display: none;
   }
@@ -472,9 +476,6 @@ a {
   .header__menu {
     padding-top: 15px;
   }
-  .header__box {
-    padding: 130px 0 0px;
-  }
   .header__main h1 {
     font-size: 7vw;
     line-height: 130%;
@@ -485,6 +486,10 @@ a {
 
 /* ====== Медиа 550px ====== */
 @media (max-width: 550px) {
+  .header {
+    padding-bottom: 0px;
+    min-height: 650px;
+  }
   .header__top-tel {
     flex-direction: column;
     gap: 11px;
@@ -502,13 +507,6 @@ a {
     width: 100%;
     height: 100vh;
     top: 44px;
-  }
-  .header__box {
-    padding: 180px 0 0;
-    text-align: center;
-  }
-  .header__main {
-    min-height: 650px;
   }
   .header__main p {
     font-size: 21px;
