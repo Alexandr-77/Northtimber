@@ -53,7 +53,7 @@ $('.slider__box').slick({
   arrows: true,
   slidesToShow: 1,
   slidesToScroll: 1,
-
+  arrows: false,
   responsive: [
 	{
 	  breakpoint: 1500,
