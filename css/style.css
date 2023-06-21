@@ -228,8 +228,9 @@ a {
 .header__top-tel-link:hover {
   color: var(--bb-hove);
 }
-.header__top-tel-link i {
-  margin-right: 9px;
+.header__top-tel-link img {
+  margin-right: 8px;
+  width: 16px;
 }
 .header__top-ikon a {
   display: inline-flex;
@@ -877,7 +878,7 @@ a {
   z-index: 5;
 }
 .lumber__box-image::after {
-  content: 'Northtimber';
+  content: 'NorthTimber';
   font-size: 18px;
   color: #ffffffab;
   text-shadow: 1px 1px 1px #6969699a;
@@ -1039,9 +1040,7 @@ a {
   -ms-transition: .5s ease;
   -o-transition: .5s ease;
 } 
-.footer__box-contakts a:hover img {
-  margin-right: 13px;
-} 
+
 .footer__box-author {
   font-size: 16px;
   color: var(--st);
